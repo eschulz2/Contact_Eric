@@ -1,1 +1,1 @@
-This project is to experiment with environment variables and the Mailchimp API.
+This project is to learn a little about the Mailchimp API.
