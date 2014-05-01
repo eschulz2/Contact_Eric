@@ -13,4 +13,14 @@
 //= require jquery
 //= require jquery_ujs
 //= require turbolinks
+//= require foundation
 //= require_tree .
+$(function() {
+  $(document).foundation();
+});
+
+$(document).ready(function() {
+    $(".alert-box.round.success").fadeOut(3000);
+});
+
+
