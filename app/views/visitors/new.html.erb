@@ -1,7 +1,11 @@
 <% content_for :title do %>Eric Schulz<% end %>
-<% content_for :description do %>Website of Foobar Kadigan<% end %>
+<% content_for :description do %>Eric Schulz Chicago<% end %>
+
+
 <section>
-  <img src="http://lorempixel.com/1170/600/cats/1">
+  <h2>Welcome</h2>
+  <h4>It's great to have you visit!  Here you can learn a little about me, or go to 'Contact' in order to send me a short message.  If you would like, you can just leave me your email or twitter handle below and I'll send you a hello or follow you.  Have a great day!</h4>
+  <h4>-Eric Schulz</h4>
 </section>
 <section>
   <div class="column">
@@ -11,10 +15,13 @@
     <div class="form-centered">
       <%= simple_form_for @visitor do |f| %>
         <%= f.error_notification %>
-        <%= f.input :email, label: false, :placeholder => 'Your email address...' %>
+        <%= f.input :email, label: false, :placeholder => 'Your email address or Twitter...' %>
         <br/>
-        <%= f.button :submit, "Send me your email!", :class => "submit" %>
+        <%= f.button :submit, "Send!", :class => "submit" %>
       <% end %>
     </div>
   </div>
+</section>
+<section>
+  <%= image_tag "chicago.jpg" %>
 </section>
