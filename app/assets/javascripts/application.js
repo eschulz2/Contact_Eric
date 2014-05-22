@@ -20,7 +20,7 @@ $(function() {
 });
 
 $(document).ready(function() {
-    $(".alert-box.round.success").fadeOut(3000);
+    $(".alert-box.round.success").fadeOut(6000);
 });
 
 
